@@ -1,0 +1,12 @@
+{
+  "name": "bundle-all-the-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -r dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
