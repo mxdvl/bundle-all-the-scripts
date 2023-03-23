@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "serve -p 8083 src"
+    "dev": "serve -p 8083 src",
+    "build": "cp -R src dist"
   },
   "devDependencies": {
     "serve": "^14.2.0"

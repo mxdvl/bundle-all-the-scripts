@@ -4,6 +4,7 @@
   "description": "A repo for experimenting with various JavaScript bundlers",
   "scripts": {
     "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
     "dev-deno": "pnpm dev & deno run --allow-net --allow-read https://deno.land/std@0.180.0/http/file_server.ts deno/src --port 8084"
   },
   "keywords": [
