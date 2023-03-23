@@ -1,12 +1,16 @@
 {
   "name": "bundle-all-the-scripts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A repo for experimenting with various JavaScript bundlers",
   "scripts": {
-    "dev": "pnpm -r dev"
+    "dev": "pnpm -r dev",
+    "dev-deno": "pnpm dev & deno run --allow-net --allow-read https://deno.land/std@0.180.0/http/file_server.ts deno/src --port 8084"
   },
-  "keywords": [],
+  "keywords": [
+    "demo",
+    "experiment",
+    "bundler"
+  ],
   "author": "",
   "license": "MIT"
 }
